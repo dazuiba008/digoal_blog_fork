@@ -2,7 +2,7 @@
   
 ### 文章列表  
 ----  
-##### 20180530_02.md   [《PostgreSQL 如何确定某个opclass支持哪些操作符(支持索引)，JOIN方法，排序》](20180530_02.md)  
+##### 20180530_02.md   [《PostgreSQL 如何确定某个opclass支持哪些操作符(支持索引)，JOIN方法，排序 - 了解opclass,am,opfamily,amop》](20180530_02.md)  
 ##### 20180530_01.md   [《PostgreSQL 推荐 TPC-C 测试工具 sqlbench》](20180530_01.md)  
 ##### 20180529_01.md   [《PostgreSQL wal_buffers 自动计算算法》](20180529_01.md)  
 ##### 20180528_01.md   [《PostgreSQL Oracle checksum 配置与性能》](20180528_01.md)  
@@ -11,8 +11,8 @@
 ##### 20180524_03.md   [《[招聘] [招商仁和人寿] PostgreSQL 开发 DBA》](20180524_03.md)  
 ##### 20180524_02.md   [《PostgreSQL 多应用场景实践 - 沙箱实验》](20180524_02.md)  
 ##### 20180524_01.md   [《[未完待续] NVMe on CentOS\RHEL 7》](20180524_01.md)  
-##### 20180522_04.md   [《EDB PPAS (PostgreSQL plus advanced server) 10 参数模板 - 珍藏级》](20180522_04.md)  
-##### 20180522_03.md   [《PostgreSQL 10 参数模板 - 珍藏级》](20180522_03.md)  
+##### 20180522_04.md   [《EDB PPAS (PostgreSQL plus advanced server) 10 postgresql.conf 参数模板 - 珍藏级》](20180522_04.md)  
+##### 20180522_03.md   [《PostgreSQL 10 postgresql.conf 参数模板 - 珍藏级》](20180522_03.md)  
 ##### 20180522_02.md   [《[未完待续] PostgreSQL 监控、诊断功能设计》](20180522_02.md)  
 ##### 20180522_01.md   [《[未完待续] PostgreSQL 邂逅 word2vec 文本搜索》](20180522_01.md)  
 ##### 20180521_03.md   [《PostgresPro buildin pool(内置连接池)版本 原理与测试》](20180521_03.md)  
@@ -46,7 +46,7 @@
 ##### 20180512_01.md   [《PostgreSQL, SQL Server 逻辑增量 (通过逻辑标记update,delete) 同步到 Greenplum, PostgreSQL》](20180512_01.md)  
 ##### 20180511_01.md   [《PostgreSQL Oracle PL/SQL 兼容性之 - AGGREGATE USING Clause 聚合函数》](20180511_01.md)  
 ##### 20180510_02.md   [《PostgreSQL Oracle 兼容性 - Analysis函数之keep》](20180510_02.md)  
-##### 20180510_01.md   [《PostgreSQL copy (quote,DELIMITER,...) single byte char 的输入》](20180510_01.md)  
+##### 20180510_01.md   [《PostgreSQL copy (指定 QUOTE,ESCAPE,DELIMITER, 分隔符等, 支持ascii单字节字符...) single byte char 的输入》](20180510_01.md)  
 ##### 20180509_02.md   [《Greenplum Oracle 兼容性之 - LOG ERRORS INTO》](20180509_02.md)  
 ##### 20180509_01.md   [《PostgreSQL Oracle 兼容性之 - select for update of column_name (change to table_name or table_alias)》](20180509_01.md)  
 ##### 20180507_01.md   [《PostgreSQL 自动创建分区实践 - 写入触发器》](20180507_01.md)  
