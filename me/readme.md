@@ -10,9 +10,13 @@ digoal(德哥)
 - 阿里巴巴钻石布道师
 - 42项数据库专利
 - [最近的一些思考](../class/35.md)  
+- 开设有[<开慧社>](https://space.bilibili.com/310191812/channel/detail?cid=191242&ctype=0)、[<德说>](https://space.bilibili.com/310191812/channel/detail?cid=198648&ctype=0)、[<重新发现PG之美>](https://space.bilibili.com/310191812/channel/detail?cid=188682&ctype=0)、[<发现PolarDB之美>](https://space.bilibili.com/310191812/channel/detail?cid=201348&ctype=0)、<DB吐槽会>等专栏。
   
 ## 工作经历
-### 2015.7 ~ 现在 阿里云        
+### 2021.8 ~ 现在 阿里云  
+架构组, 负责数据库开源.  
+    
+### 2015.7 ~ 2021.8 阿里云        
 2015.7加入阿里云数据库内核组, 负责RDS PG, HybridDB for PG的架构设计, 为阿里巴巴内(阿里云、高德、淘宝、天猫、优酷、阿里妈妈、IOT、未来酒店、B2B、AE、新零售、菜鸟、公共平台、飞猪、YUNOS、智慧城市)、外部客户提供架构、方案设计、POC支持. 形成行业方案沉淀并推广。  
   
 2018.10转入阿里云数据库产品团队，负责阿里云PostgreSQL系列产品（[RDS PG](https://www.aliyun.com/product/rds/postgresql) ，[PPAS（兼容Oracle）](https://www.aliyun.com/product/rds/ppas) ， [POLARDB for PG， POLARDB for Oracle(已商用)](https://www.aliyun.com/product/polardb)）的产品规划、设计、生态构建。   
@@ -213,6 +217,14 @@ pluggable 内部能力输送: 达摩院、蚂蚁、安全(堡垒，可信融合�
 2020-12-18 大型企业数据库与应用实践-dsg,阿里云,pg社区,上海开源信息技术协会 联合主办
 2021-01-15 PG中文社区2020年度峰会-2021,别让你的企业输在起跑线
 2021-01-18 阿里云PG创新训练营
+xxxx-xx-xx 阿里云PolarDB PG开源训练营
+xxxx-xx-xx 开源学堂
+xxxx-xx-xx 开源大咖说
+xxxx-xx-xx 开慧社
+xxxx-xx-xx 德说
+xxxx-xx-xx 发现PG之美
+xxxx-xx-xx 发现PolarDB之美
+xxxx-xx-xx DB吐槽大会
 ```
 - 企业培训
 ```
@@ -257,3 +269,4 @@ email: digoal@126.com
 [卡通版照片1](digoal_1.png)  
 [卡通版照片2](digoal_2.png)  
     
+  
