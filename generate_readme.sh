@@ -56,7 +56,7 @@ echo "  "  >> ./README.md
 echo "### 三、[感恩](201803/20180322_12.md)  " >> ./README.md
 echo "### 四、[思考](class/35.md)  " >> ./README.md
 echo "  "  >> ./README.md
-echo "1、[《德说 系列》](202108/20210818_02.md)     " >> ./README.md 
+echo "1、[《德说》](202108/20210818_02.md)     " >> ./README.md 
 echo "2、[《PG社区建设方法论 - 五看三定》](202103/20210329_01.md)     " >> ./README.md 
 echo "3、[《PostgreSQL 社区建设思考》](202004/20200426_01.md)    " >> ./README.md
 echo "4、[《PostgreSQL 社区建设商业策划 {未完}》](202008/20200828_01.md)      " >> ./README.md
@@ -127,7 +127,7 @@ do
     FREEURL=`grep "57258f76c37864c6e6d23383d05714ea" ${file}|grep -c "57258f76c37864c6e6d23383d05714ea"`
     if [ $FREEURL -ne 1 ]; then
       echo "  " >> ./${file}
-      echo "#### [类似Oracle RAC架构的PostgreSQL已开源: 阿里云PolarDB for PostgreSQL云原生分布式开源数据库!](https://github.com/ApsaraDB/PolarDB-for-PostgreSQL \"57258f76c37864c6e6d23383d05714ea\")" >> ./${file}
+      echo "#### [PolarDB for PostgreSQL云原生分布式开源数据库](https://github.com/ApsaraDB/PolarDB-for-PostgreSQL \"57258f76c37864c6e6d23383d05714ea\")" >> ./${file}
       echo "  " >> ./${file}
     fi
 ##
