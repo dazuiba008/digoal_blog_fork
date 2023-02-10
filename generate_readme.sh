@@ -57,7 +57,7 @@ echo "  "  >> ./README.md
 echo "### 三、[感恩](201803/20180322_12.md)  " >> ./README.md
 echo "### 四、[思考](class/35.md)  " >> ./README.md
 echo "  "  >> ./README.md
-echo "1、[《德说》](202108/20210818_02.md)     " >> ./README.md 
+echo "1、[《德说-留给现象界》](202108/20210818_02.md)     " >> ./README.md 
 echo "2、[《读书分享 第1期 - 《臣服实验》》](202203/20220312_01.md)       " >> ./README.md 
 echo "3、[《PG社区建设方法论 - 五看三定》](202103/20210329_01.md)     " >> ./README.md 
 echo "4、[《PostgreSQL 社区建设思考》](202004/20200426_01.md)    " >> ./README.md
@@ -90,6 +90,10 @@ echo "欢迎转载(注明出处), 如有问题, 请发issue讨论或微信与我
 echo "  "  >> ./README.md
 echo "### 五、已归类文档如下(归档进行中... ...)  " >> ./README.md
 sed 's/](/](class\//g' class/README.md >> ./README.md
+echo "  "  >> ./README.md
+echo "### Star History  "  >> ./README.md 
+echo "[![Star History Chart](https://api.star-history.com/svg?repos=digoal/blog&type=Date)](https://star-history.com/#digoal/blog&Date)  "   >> ./README.md
+echo "  "  >> ./README.md
 echo "### 所有文档如下  " >> ./README.md
 
 for dir in `ls -lr|awk '{print $9}'|grep -E '^[0-9]{6}'` 
@@ -112,6 +116,8 @@ do
 #sed -i "" '/269ac3d1c492e938c0191101c7238216/d' ${file}
 # ###FREEURL###   
 #sed -i "" '/57258f76c37864c6e6d23383d05714ea/d' ${file}
+# ###POLARONEURL###
+#sed -i "" '/8642f60e04ed0c814bf9cb9677976bd4/d' ${file}
 # ###ALIPGURL###   
 #sed -i "" '/40cff096e9ed7122c512b35d8561d9c8/d' ${file}
 # ###LINK###   
@@ -122,21 +128,28 @@ do
     XYQ=`grep "269ac3d1c492e938c0191101c7238216" ${file}|grep -c "269ac3d1c492e938c0191101c7238216"`
     if [ $XYQ -lt 1 ]; then
       echo "  " >> ./${file}
-      echo "#### [期望 PostgreSQL 增加什么功能?](https://github.com/digoal/blog/issues/76 \"269ac3d1c492e938c0191101c7238216\")" >> ./${file}
+      echo "#### [期望 PostgreSQL|开源PolarDB 增加什么功能?](https://github.com/digoal/blog/issues/76 \"269ac3d1c492e938c0191101c7238216\")" >> ./${file}
       echo "  " >> ./${file}
     fi
 ##
     FREEURL=`grep "57258f76c37864c6e6d23383d05714ea" ${file}|grep -c "57258f76c37864c6e6d23383d05714ea"`
     if [ $FREEURL -ne 1 ]; then
       echo "  " >> ./${file}
-      echo "#### [PolarDB for PostgreSQL云原生分布式开源数据库](https://github.com/ApsaraDB/PolarDB-for-PostgreSQL \"57258f76c37864c6e6d23383d05714ea\")" >> ./${file}
+      echo "#### [PolarDB 云原生分布式开源数据库](https://github.com/ApsaraDB \"57258f76c37864c6e6d23383d05714ea\")" >> ./${file}
+      echo "  " >> ./${file}
+    fi
+##
+    POLARONEURL=`grep "8642f60e04ed0c814bf9cb9677976bd4" ${file}|grep -c "8642f60e04ed0c814bf9cb9677976bd4"`
+    if [ $POLARONEURL -ne 1 ]; then
+      echo "  " >> ./${file}
+      echo "#### [PolarDB 学习图谱: 训练营、培训认证、在线互动实验、解决方案、内核开发公开课、生态合作、写心得拿奖品](https://www.aliyun.com/database/openpolardb/activity \"8642f60e04ed0c814bf9cb9677976bd4\")" >> ./${file}
       echo "  " >> ./${file}
     fi
 ##
     ALIPGURL=`grep "40cff096e9ed7122c512b35d8561d9c8" ${file}|grep -c "40cff096e9ed7122c512b35d8561d9c8"`
     if [ $ALIPGURL -ne 1 ]; then
       echo "  " >> ./${file}
-      echo "#### [PostgreSQL 解决方案集合](https://yq.aliyun.com/topic/118 \"40cff096e9ed7122c512b35d8561d9c8\")" >> ./${file}
+      echo "#### [PostgreSQL 解决方案集合](../201706/20170601_02.md \"40cff096e9ed7122c512b35d8561d9c8\")" >> ./${file}
       echo "  " >> ./${file}
     fi
 ## 

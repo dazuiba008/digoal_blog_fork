@@ -3,18 +3,29 @@ digoal(德哥)
         
 [个人照片](digoal.png)        
           
+- 天上的繁星, 海边的沙粒.  
 - PostgreSQL 中国社区发起人之一。负责PostgreSQL数据库在中国的技术落地与推广、人才培养。          
 - 中国开源软件推进联盟PostgreSQL分会，特聘资深领域专家。         
 - [中国信息通信研究院主办、中国通信标准化协会支持的"OSCAR云计算开源产业大会"评选：2018届OSCAR开源尖峰人物之一](../201803/20180322_12.md)    
 - 阿里云数据库首席专家团队[成员](aliyun_shouxi_db_service.png)，提供[数据库首席专家服务](https://www.aliyun.com/service/chiefexpert/database)。    
-- 阿里巴巴钻石布道师
+- 阿里巴巴麒麟布道师
 - 42项数据库专利
-- [最近的一些思考](../class/35.md)  
-- 开设有[<开慧社>](https://space.bilibili.com/310191812/channel/detail?cid=191242&ctype=0)、[<德说>](https://space.bilibili.com/310191812/channel/detail?cid=198648&ctype=0)、[<重新发现PG之美>](https://space.bilibili.com/310191812/channel/detail?cid=188682&ctype=0)、[<发现PolarDB之美>](https://space.bilibili.com/310191812/channel/detail?cid=201348&ctype=0)、[<DB吐槽会>](https://space.bilibili.com/310191812/channel/seriesdetail?sid=238117&ctype=0)等专栏。
+- [德说](../202108/20210818_02.md)以及[最近的一些思考](../class/35.md)  
+- B站开设有[<开慧社>](https://space.bilibili.com/310191812/channel/detail?cid=191242&ctype=0)、[<德说>](https://space.bilibili.com/310191812/channel/detail?cid=198648&ctype=0)、[<重新发现PG之美>](https://space.bilibili.com/310191812/channel/detail?cid=188682&ctype=0)、[<发现PolarDB之美>](https://space.bilibili.com/310191812/channel/detail?cid=201348&ctype=0)、[<DB吐槽会>](https://space.bilibili.com/310191812/channel/seriesdetail?sid=238117&ctype=0)、[<每天5分钟PG聊通透>](https://space.bilibili.com/310191812/channel/seriesdetail?sid=582141&ctype=0)等专栏。     
+  
+```
+简短介绍
+简介: 德哥(digoal), 就职于阿里云数据库团队架构组, 负责阿里云PolarDB数据库开源产品运营。PostgreSQL 中国社区发起人之一, 负责PG在中国的技术落地与推广、人才培养. 申请了40余项数据库相关专利, 喜爱技术分享, 获得阿里巴巴麒麟布道师称号、2018届OSCAR开源尖峰人物之一. 
+```
   
 ## 工作经历
 ### 2021.8 ~ 现在 阿里云  
 架构组, 负责阿里云数据库开源产品与运营.  
+- PolarDB 开源社区框架构建. 
+- 剖析国家支持开源的战略意图, 开源对国家、业务方、生态共建方的价值
+- 向业务方、生态方传导并建立统一思想与信念, 明确开源的价值
+- 为业务方、生态共建方制定开源的核心目标, 设计价值实现路径
+- 建立生态体系与协作机制, 通过参与方的高度连接、自组织、涌现出开源生命, 实现开源对国家、业务方、生态共建方的核心价值
     
 ### 2015.7 ~ 2021.8 阿里云        
 2015.7加入阿里云数据库内核组, 负责RDS PG, HybridDB for PG的架构设计, 为阿里巴巴内(阿里云、高德、淘宝、天猫、优酷、阿里妈妈、IOT、未来酒店、B2B、AE、新零售、菜鸟、公共平台、飞猪、YUNOS、智慧城市)、外部客户提供架构、方案设计、POC支持. 形成行业方案沉淀并推广。  
@@ -236,6 +247,8 @@ xxxx-xx-xx DB吐槽大会
 vivo oppo
 去哪儿
 邮储银行
+娃哈哈
+...
 ```
 - 常年不定期输出PostgreSQL公益培训。        
 - 长期坚持撰写技术文章，涵盖“开源产品使用、案例、应用开发实践、内核开发实践、管理实践、调优实践”等数据库生命周期相关文档. 截止2019.6 发表PG技术类文章数：    
