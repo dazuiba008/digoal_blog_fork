@@ -32,6 +32,11 @@ echo "10、[《2021-Ask 德哥 系列 - 适合DBA与业务开发者》](202109/2
 echo "11、[《2018-PG生态、案例、开发实践系列 - 适合架构师与业务开发者》](https://edu.aliyun.com/course/836/lesson/list)  "  >> ./README.md
 echo "12、[《2018-阿里云POLARDB for Oracle|RDS for PPAS 讲解视频》](https://yq.aliyun.com/live/582)  "  >> ./README.md   
 echo "13、[《2022-每天5分钟,PG聊通透 - 系列1 - 热门问题》](202112/20211209_02.md)   "  >> ./README.md   
+echo "14、[《2023-PostgreSQL|PolarDB 学习实验手册》](202308/20230822_02.md)     "  >> ./README.md   
+echo "15、[《2023-PostgreSQL|PolarDB 永久免费实验环境》](https://developer.aliyun.com/adc/scenario/f55dbfac77c0467a9d3cd95ff6697a31)     "  >> ./README.md    
+echo "16、[《2024-开源PolarDB|PostgreSQL 应用开发者&DBA 公开课》](202310/20231030_02.md)     "  >> ./README.md    
+echo "17、[《2023-PostgreSQL Docker镜像学习环境 ARM64版, 已集成热门插件和工具》](202308/20230814_02.md)     "  >> ./README.md    
+echo "18、[《2023-PostgreSQL Docker镜像学习环境 AMD64版, 已集成热门插件和工具》](202307/20230710_03.md)     "  >> ./README.md    
 echo "  "  >> ./README.md
 echo "### 二、学习资料  " >> ./README.md
 echo "  "  >> ./README.md
@@ -58,7 +63,7 @@ echo "  "  >> ./README.md
 echo "### 三、[感恩](201803/20180322_12.md)  " >> ./README.md
 echo "### 四、[思考](class/35.md)  " >> ./README.md
 echo "  "  >> ./README.md
-echo "1、[《德说-留给现象界》](202108/20210818_02.md)     " >> ./README.md 
+echo "1、[《德说》](202108/20210818_02.md)     " >> ./README.md 
 echo "2、[《读书分享 第1期 - 《臣服实验》》](202203/20220312_01.md)       " >> ./README.md 
 echo "3、[《PG社区建设方法论 - 五看三定》](202103/20210329_01.md)     " >> ./README.md 
 echo "4、[《PostgreSQL 社区建设思考》](202004/20200426_01.md)    " >> ./README.md
@@ -66,16 +71,15 @@ echo "5、[《PostgreSQL 社区建设商业策划 {未完}》](202008/20200828_0
 echo "6、[《[未完] PostgreSQL\Greenplum 社区管理 TODO》](201710/20171017_05.md)    " >> ./README.md
 echo "7、[《[未完] PostgreSQL\Greenplum Customer视角TODO》](201710/20171017_01.md)    " >> ./README.md
 echo "8、[《为什么企业应该参与PG社区建设?》](202003/20200321_01.md)    " >> ./README.md
-echo "9、[《企业为什么纷纷选择阿里云AliPG》](202005/20200523_01.md)    " >> ./README.md
-echo "10、[《为什么数据库选型和找对象一样重要》](202003/20200322_01.md)    " >> ./README.md
-echo "11、[《云、商业、开源数据库终局之战 - 商业角度解读PG如何破局 - openapi 、 扩展能力、插件开源协议》](202007/20200727_04.md)    " >> ./README.md
-echo "12、[《[直播]大话数据库终局之战》](202009/20200926_03.md)      " >> ./README.md
-echo "13、[《未来数据库方向 - 以及PostgreSQL 有价值的插件、可改进功能、开放接口 (202005)》](202005/20200527_06.md)    " >> ./README.md
-echo "14、[《《引爆点》原理, 如何影响PG发展》](197001/20200804_01.md)      " >> ./README.md
-echo "15、[《打破惯性思维, 引导创新, 引爆流行, PG》](202104/20210411_01.md)        " >> ./README.md
-echo "16、[《PostgreSQL 核心卖点提取方法》](202006/20200609_02.md)   " >> ./README.md 
-echo "17、[《开源数据库全球化协作浪潮 思考 - 24问》](202101/20210120_02.md)       " >> ./README.md
-echo "18、[《企业CxO数据库选型应该回答清楚的 15 个问题》](202101/20210117_04.md)         " >> ./README.md
+echo "9、[《为什么数据库选型和找对象一样重要》](202003/20200322_01.md)    " >> ./README.md
+echo "10、[《云、商业、开源数据库终局之战 - 商业角度解读PG如何破局 - openapi 、 扩展能力、插件开源协议》](202007/20200727_04.md)    " >> ./README.md
+echo "11、[《[直播]大话数据库终局之战》](202009/20200926_03.md)      " >> ./README.md
+echo "12、[《未来数据库方向 - 以及PostgreSQL 有价值的插件、可改进功能、开放接口 (202005)》](202005/20200527_06.md)    " >> ./README.md
+echo "13、[《《引爆点》原理, 如何影响PG发展》](197001/20200804_01.md)      " >> ./README.md
+echo "14、[《打破惯性思维, 引导创新, 引爆流行, PG》](202104/20210411_01.md)        " >> ./README.md
+echo "15、[《PostgreSQL 核心卖点提取方法》](202006/20200609_02.md)   " >> ./README.md 
+echo "16、[《开源数据库全球化协作浪潮 思考 - 24问》](202101/20210120_02.md)       " >> ./README.md
+echo "17、[《企业CxO数据库选型应该回答清楚的 15 个问题》](202101/20210117_04.md)         " >> ./README.md
 echo "  "  >> ./README.md
 echo "PG官方微信 | PG技术进阶钉钉群</br>每周直播 | digoal </br>个人微信  " >> ./README.md
 echo "---|---|---  " >> ./README.md
@@ -125,6 +129,10 @@ do
 #sed -i "" '/22709685feb7cab07d30f30387f0a9ae/d' ${file}
 # ###WXLINK###   
 #sed -i "" '/f7ad92eeba24523fd47a6e1a0e691b59/d' ${file}
+# ###ABOUTDIGOAL###   
+#sed -i "" '/a37735981e7704886ffd590565582dd0/d' ${file}
+# ###POLARDBYUNDASHI###   
+#sed -i "" '/e0495c413bedacabb75ff1e880be465a/d' ${file}
 ## 
     XYQ=`grep "269ac3d1c492e938c0191101c7238216" ${file}|grep -c "269ac3d1c492e938c0191101c7238216"`
     if [ $XYQ -lt 1 ]; then
@@ -136,15 +144,22 @@ do
     FREEURL=`grep "57258f76c37864c6e6d23383d05714ea" ${file}|grep -c "57258f76c37864c6e6d23383d05714ea"`
     if [ $FREEURL -ne 1 ]; then
       echo "  " >> ./${file}
-      echo "#### [PolarDB 云原生分布式开源数据库](https://github.com/ApsaraDB \"57258f76c37864c6e6d23383d05714ea\")" >> ./${file}
+      echo "#### [PolarDB 开源数据库](https://openpolardb.com/home \"57258f76c37864c6e6d23383d05714ea\")" >> ./${file}
       echo "  " >> ./${file}
     fi
 ##
     POLARONEURL=`grep "8642f60e04ed0c814bf9cb9677976bd4" ${file}|grep -c "8642f60e04ed0c814bf9cb9677976bd4"`
     if [ $POLARONEURL -ne 1 ]; then
       echo "  " >> ./${file}
-      echo "#### [PolarDB 学习图谱: 训练营、培训认证、在线互动实验、解决方案、内核开发公开课、生态合作、写心得拿奖品](https://www.aliyun.com/database/openpolardb/activity \"8642f60e04ed0c814bf9cb9677976bd4\")" >> ./${file}
+      echo "#### [PolarDB 学习图谱](https://www.aliyun.com/database/openpolardb/activity \"8642f60e04ed0c814bf9cb9677976bd4\")" >> ./${file}
       echo "  " >> ./${file}
+    fi
+## 
+    POLARDBYUNDASHI=`grep "e0495c413bedacabb75ff1e880be465a" $file|grep -c "e0495c413bedacabb75ff1e880be465a"`
+    if [ $POLARDBYUNDASHI -ne 1 ]; then
+      echo "  " >> ./$file
+      echo "#### [购买PolarDB云服务折扣活动进行中, 55元起](https://www.aliyun.com/activity/new/polardb-yunparter?userCode=bsb3t4al \"e0495c413bedacabb75ff1e880be465a\")" >> ./$file
+      echo "  " >> ./$file
     fi
 ##
     ALIPGURL=`grep "40cff096e9ed7122c512b35d8561d9c8" ${file}|grep -c "40cff096e9ed7122c512b35d8561d9c8"`
@@ -157,7 +172,14 @@ do
     LINK=`grep "22709685feb7cab07d30f30387f0a9ae" $file|grep -c "22709685feb7cab07d30f30387f0a9ae"`
     if [ $LINK -ne 1 ]; then
       echo "  " >> ./$file
-      echo "#### [德哥 / digoal's github - 公益是一辈子的事.](https://github.com/digoal/blog/blob/master/README.md \"22709685feb7cab07d30f30387f0a9ae\")" >> ./$file
+      echo "#### [德哥 / digoal's Github - 公益是一辈子的事.](https://github.com/digoal/blog/blob/master/README.md \"22709685feb7cab07d30f30387f0a9ae\")" >> ./$file
+      echo "  " >> ./$file
+    fi
+## 
+    ABOUTDIGOAL=`grep "a37735981e7704886ffd590565582dd0" $file|grep -c "a37735981e7704886ffd590565582dd0"`
+    if [ $ABOUTDIGOAL -ne 1 ]; then
+      echo "  " >> ./$file
+      echo "#### [About 德哥](https://github.com/digoal/blog/blob/master/me/readme.md \"a37735981e7704886ffd590565582dd0\")" >> ./$file
       echo "  " >> ./$file
     fi
 ## 
