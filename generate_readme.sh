@@ -37,6 +37,7 @@ echo "15、[《2023-PostgreSQL|PolarDB 永久免费实验环境》](https://deve
 echo "16、[《2024-开源PolarDB|PostgreSQL 应用开发者&DBA 公开课》](202310/20231030_02.md)     "  >> ./README.md    
 echo "17、[《2023-PostgreSQL Docker镜像学习环境 ARM64版, 已集成热门插件和工具》](202308/20230814_02.md)     "  >> ./README.md    
 echo "18、[《2023-PostgreSQL Docker镜像学习环境 AMD64版, 已集成热门插件和工具》](202307/20230710_03.md)     "  >> ./README.md    
+echo "19、[《2024-应用开发者 数据库筑基课》](202409/20240914_01.md)     "  >> ./README.md    
 echo "  "  >> ./README.md
 echo "### 二、学习资料  " >> ./README.md
 echo "  "  >> ./README.md
@@ -93,13 +94,13 @@ echo "如发现错误, 请万望指正, 非常感谢.  "  >> ./README.md
 echo "  "  >> ./README.md
 echo "欢迎转载(注明出处), 如有问题, 请发issue讨论或微信与我联系, 定抽空尽快回复  " >> ./README.md
 echo "  "  >> ./README.md
-echo "### 五、已归类文档如下(归档进行中... ...)  " >> ./README.md
+echo "### 五、已归类文档(大部分文章未归类, 请看第六部分 ... ...)  " >> ./README.md
 sed 's/](/](class\//g' class/README.md >> ./README.md
 echo "  "  >> ./README.md
 echo "### Star History  "  >> ./README.md 
 echo "[![Star History Chart](https://api.star-history.com/svg?repos=digoal/blog&type=Date)](https://star-history.com/#digoal/blog&Date)  "   >> ./README.md
 echo "  "  >> ./README.md
-echo "### 所有文档如下  " >> ./README.md
+echo "### 六、所有文档如下  " >> ./README.md
 
 for dir in `ls -lr|awk '{print $9}'|grep -E '^[0-9]{6}'` 
 do
@@ -155,12 +156,12 @@ do
       echo "  " >> ./${file}
     fi
 ## 
-    POLARDBYUNDASHI=`grep "e0495c413bedacabb75ff1e880be465a" $file|grep -c "e0495c413bedacabb75ff1e880be465a"`
-    if [ $POLARDBYUNDASHI -ne 1 ]; then
-      echo "  " >> ./$file
-      echo "#### [购买PolarDB云服务折扣活动进行中, 55元起](https://www.aliyun.com/activity/new/polardb-yunparter?userCode=bsb3t4al \"e0495c413bedacabb75ff1e880be465a\")" >> ./$file
-      echo "  " >> ./$file
-    fi
+###    POLARDBYUNDASHI=`grep "e0495c413bedacabb75ff1e880be465a" $file|grep -c "e0495c413bedacabb75ff1e880be465a"`
+###    if [ $POLARDBYUNDASHI -ne 1 ]; then
+###      echo "  " >> ./$file
+###      echo "#### [PolarDB 安可版](https://www.aliyun.com/activity/database/polardb-v2 \"e0495c413bedacabb75ff1e880be465a\")" >> ./$file
+###      echo "  " >> ./$file
+###    fi
 ##
     ALIPGURL=`grep "40cff096e9ed7122c512b35d8561d9c8" ${file}|grep -c "40cff096e9ed7122c512b35d8561d9c8"`
     if [ $ALIPGURL -ne 1 ]; then
